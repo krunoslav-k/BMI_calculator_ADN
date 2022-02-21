@@ -11,12 +11,12 @@
         android:id="@+id/cvWeight"
         android:layout_width="318dp"
         android:layout_height="160dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         app:cardBackgroundColor="@color/card_background"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cvHeight">
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -42,7 +42,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="25dp"
                 android:ems="10"
-                android:inputType="textPersonName"
+                android:inputType="number"
                 android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold"
@@ -66,12 +66,12 @@
         android:id="@+id/cvHeight"
         android:layout_width="318dp"
         android:layout_height="160dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         app:cardBackgroundColor="@color/card_background"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/cvWeight">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -129,7 +129,7 @@
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cvWeight" />
+        app:layout_constraintTop_toBottomOf="@+id/cvHeight" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="318dp"
